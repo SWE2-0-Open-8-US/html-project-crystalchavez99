@@ -13,3 +13,18 @@ body{
     color:white;
     background-color: black;
 }
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav  li {
+    list-style-type: none;
+}
+
+#pages{
+    display: flex;
+    justify-content:space-around;
+}
+
