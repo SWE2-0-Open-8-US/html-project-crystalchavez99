@@ -6,6 +6,21 @@ body, html{
     padding: 0;
     height: 100%;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25em 3.125em;
+    border-bottom: 1px solid white;
+}
+
+header li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 1.25em;
+}
+
 #main{
     display: flex;
     justify-content: center;
@@ -14,9 +29,8 @@ body, html{
     height: 90%;
 }
 
-header{
-    text-align: center;
-}
+
+
 #bio{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -34,7 +48,7 @@ header{
     background-color: black;
 } */
 
-#nav{
+/* #nav{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid green;
@@ -44,18 +58,17 @@ header{
 
 #nav  li {
     list-style-type: none;
-}
+} */
 
 /* #pages{
     display: flex;
     border: 1px solid red;
 }  */
 
-.pages{
+/* .pages{
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
-}
+} */
 /* #pages > a{
     margin-right: 4%;
 } */
@@ -64,6 +77,7 @@ header{
 a{
     text-decoration: none;
     color:white;
+    transition: all 0.3s ease 0s;
 }
 
 a:hover{
