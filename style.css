@@ -7,20 +7,29 @@ body, html{
     height: 100%;
 }
 
-header{
+header, footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.25em 3.125em;
-    border-bottom: 1px solid white;
 }
 
-header li{
+header{
+    border-bottom: 1px solid white;
+    padding: 1.25em 3.125em;
+}
+
+header li, footer li{
     list-style-type: none;
     display: inline-block;
     padding: 0 1.25em;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid white;
+    width: 100%;
+}
 #main{
     /* display: flex;
     justify-content: center;
