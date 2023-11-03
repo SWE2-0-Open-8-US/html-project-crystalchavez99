@@ -40,8 +40,9 @@ footer{
     grid-template-columns: 1fr 1fr;
     margin: 10rem 10rem;
     max-width: 75rem;
-    column-gap: 5rem;
+    column-gap: 1rem;
     margin-inline: auto;
+    /* border: 1px dotted green; */
 }
 
 #shorthand > img{
@@ -49,24 +50,40 @@ footer{
     height: 10rem;
 }
 
+#shorthand{
+    /* border: 1px dotted green; */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
 #quote{
-    border: 0.1rem dotted green;
+    /* border: 0.1rem dotted green; */
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 
 #bio{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border-bottom: 1px dotted green;
+}
+
+#mainbio{
+    margin: 5rem 5rem;
 }
 
 .bio-item{justify-self: center}
 
 #intro{
     text-align: center;
+    border-bottom: 1px dotted green;
 }
+
+
 
 
 /* #home{
