@@ -14,7 +14,19 @@ body, html{
     height: 90%;
 }
 
+header{
+    text-align: center;
+}
+#bio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.bio-item{justify-self: center}
+
+#intro{
+    text-align: center;
+}
 
 
 /* #home{
@@ -34,10 +46,19 @@ body, html{
     list-style-type: none;
 }
 
-#pages{
+/* #pages{
     display: flex;
-} 
+    border: 1px solid red;
+}  */
 
+.pages{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+/* #pages > a{
+    margin-right: 4%;
+} */
 
 
 a{
