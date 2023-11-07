@@ -153,9 +153,9 @@ a:hover{
 
 .project{
     border: 1px dotted white;
-    width: 25rem;
-    height: 25rem;
+    width: 30rem;
+    height: 30rem;
     text-align: center;
-    background-color: green;
-    color:black;
+    color:white;
+    margin: 1rem;
 }
